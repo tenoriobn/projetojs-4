@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg,#f7f7f7, #d8d8c8);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: .3125rem;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo__sublinhado {
+    background: #000000;
+    font-weight: 700;
+
+    height: .1875rem;
+
+    margin-bottom: .625rem;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game__botao {
+    background: #d8d8c8;
+
+    cursor: pointer;
+    
+    font-size: 3.125rem;
+
+    margin: .3125rem;
+
+    height: 100px;
+    width: 6.25rem;
+}
